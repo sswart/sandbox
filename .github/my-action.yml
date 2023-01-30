@@ -1,0 +1,12 @@
+name: 'My-Action sswart'
+description: 'Test publish'
+author: '@sswart'
+branding:
+  icon: 'award'
+  color: 'green'
+  
+runs:
+  using: 'composite'
+  steps:
+    - run: echo "test"
+      shell: bash
